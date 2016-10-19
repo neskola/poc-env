@@ -1,0 +1,29 @@
+{
+  "name": "poc-env",
+  "version": "1.0.0",
+  "description": "POC environment for firebase storage integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neskola/poc-env.git"
+  },
+  "keywords": [
+    "poc",
+    "test",
+    "env",
+    "firebase",
+    "storage"
+  ],
+  "author": "Niki Eskola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neskola/poc-env/issues"
+  },
+  "homepage": "https://github.com/neskola/poc-env#readme",
+  "devDependencies": {
+    "firebase": "^3.5.0"
+  }
+}
