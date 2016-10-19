@@ -24,6 +24,5 @@
   },
   "homepage": "https://github.com/neskola/poc-env#readme",
   "devDependencies": {
-    "firebase": "^3.5.0"
   }
 }
