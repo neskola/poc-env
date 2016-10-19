@@ -23,6 +23,8 @@
     "tests"
   ],
   "dependencies": {
-    "firebase": "^3.5.0"
+    "firebase": "^3.5.0",
+    "angular": "^1.5.8",
+    "angularfire": "^2.0.2"
   }
 }
