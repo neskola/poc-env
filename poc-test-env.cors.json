@@ -1,0 +1,8 @@
+[
+    {
+      "origin": ["http://poc-test-env.firebaseapp.com"],
+      "responseHeader": ["Content-Type"],
+      "method": ["GET", "HEAD", "DELETE"],
+      "maxAgeSeconds": 3600
+    }
+]
