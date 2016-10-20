@@ -3,6 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Welcome to Firebase Hosting</title>
+
+    <script src="./bower_components/angular/angular.min.js"></script>
+    <script src="./bower_components/firebase/firebase.js"></script>
+    <script src="./bower_components/angularfire/dist/angularfire.min.js"></script>
+
     <style media="screen">
       body {
         font-family: Roboto, Arial, sans-serif;
@@ -58,9 +63,13 @@
     </style>
   </head>
   <body>
+    <script type="text/javascript" src="coffee/lib/app.js"></script>
+    <script type="text/javascript" src="coffee/lib/blob.js"></script>
+    <script type="text/javascript" src="coffee/lib/config.js"></script>
+    
     <div id="message">
-      <h1>Welcome to Firebase Hosting</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
+      <h1>Welcome to POC test env</h1>
+      <button onclick="saveData(data, 'data.json')">Click me!</button>
       <ul>
         <li><a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a></li>
       </ul>

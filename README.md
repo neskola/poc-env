@@ -9,6 +9,14 @@ Download project's dependencies by typing
 
 $ bower install
 
+Copy bower_components under public directory
+
+$ cp -r bower_components public/ 
+
+Build project's coffee scripts, add -w if you want watch and recompile when .coffee -files are changed
+
+$ bower -cbo public/coffee/lib public/coffee/src
+
 Start project by typing
 
 $ firebase serve
